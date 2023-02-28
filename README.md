@@ -12,7 +12,7 @@ Capítulos: 17 y 18
 
 OBJETIVO GENERAL
 
-Estudiar y comprender la base teórica y a su vez, resolver los ejercicios de aplicación de los capítulos 17 y 18 del libro "Principios de circuitos eléctricos" de Floyd, a los cuales corresponden los temas: "Circuitos RC" y "Circuitos RL", analizando cada subtema respectivo, en lo que involucra: definiciones, fórmulas y aplicaciones.
+Estudiar y comprender la base teórica y a su vez, resolver los ejercicios de aplicación de los capítulos 17 y 18 del libro "Principios de circuitos eléctricos" de Floyd, a los cuales corresponden los temas: "Circuitos RCL y resonancia" y "Filtros pasivos", analizando cada subtema respectivo, en lo que involucra: definiciones, fórmulas y aplicaciones.
 
 OBJETIVOS ESPECÍFICOS
 
@@ -20,7 +20,11 @@ OBJETIVOS ESPECÍFICOS
 * Analizar circuitos RLC en serie.
 * Analizar un circuito en cuanto a resonancia en serie.
 * Determinar la impedancia de un circuito RLC en paralelo.
-*Analizar circuitos RLC en paralelo.
+* Analizar circuitos RLC en paralelo.
+* Analizar un circuito en cuanto a resonancia en paralelo.
+* Analizar circuitos RLC en serie-paralelo.
+* Determinar el ancho de banda de circuitos resonantes.
+* Analizar algunas aplicaciones de circuitos resonantes.
 
 ## 2. MARCO TEÓRICO
 
@@ -280,6 +284,12 @@ del circuito, la reactancia total es menor que cualquier reactancia individual.
 *En un circuito RLC en serie, la resonancia en serie ocurre cuando XC=XL. La frecuencia a la cual tiene lugar la resonancia se llama frecuencia resonante y se designa mediante fr.
 * Se ha estudiado la impedancia y el ángulo de fase de un circuito RLC dispuesto en paralelo además de cubrir temas como donductancia, susceptancia y admitancia de un circuito RLC. 
 * En un circuito en paralelo domina la reactancia más pequeña porque produce la mayor corriente de rama.
+* Los circuitos RC se encuentran en diversas aplicaciones, a menudo como parte de un circuito más complejo. Tres aplicaciones son los osciladores de desplazamiento de fase, los circuitos selectores de frecuencia (filtros), y el acoplamiento de ca.
+* De manera ideal, la resonancia en paralelo ocurre cuando XC = XL. La frecuencia a la cual ocurre la resonancia se llama frecuencia resonante, exactamente como en el caso en serie. 
+* En la mayoría de las situaciones prácticas, una resistencia de carga externa aparece en paralelo con un circuito tanque no ideal.
+* En un circuito RLC dispuesto en serie, la corriente alcanza su valor máximo a la frecuencia resonante porque las reactancias se eliminan entre sí. En un circuito RLC en paralelo, la corriente es mínima en la frecuencia resonante porque las corrientes inductiva y capacitiva se eliminan entre sí. Este comportamiento del circuito se relaciona con una característica llamada ancho de banda.
+* Se utilizan circuitos resonantes en una amplia variedad de aplicaciones, particularmente en sistemas de comunicación.
+
 
 ## 6. BIBLIOGRAFÍA
 
